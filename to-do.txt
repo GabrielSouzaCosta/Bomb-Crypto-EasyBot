@@ -4,12 +4,12 @@
 4. wait loading
 5. check if logged in
 6. if logged in save heroes and treasure hunt locations 
-7. Click on heroes
-8. Locate heroes not working and click
-9. Drag screen down and -> 8
-10. Click on X to leave
-11. Enter on treasure hunt
-12. Refresh heroes positions every x minutes
-13. Check if unknown problem occured every x minutes
+7. Click on heroes - OK
+8. Drag screen down
+9. Locate heroes not working and click - OK
+10. Click on X to leave - OK
+11. Enter on treasure hunt- OK
+12. Refresh heroes positions every x minutes - OK
+13. Check if unknown problem occured every x minutes - +/-
 14. If occurred click on the middle of the screen and wait or refresh (F5) page -> Repeat process
 15. If not, continue the desired tasks

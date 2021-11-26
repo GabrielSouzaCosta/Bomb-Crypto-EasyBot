@@ -14,4 +14,6 @@ def searchImage():
     #     print('Image not found')
 
 searchImage()
-pyautogui.scroll(-2000)
+# pyautogui.scroll(-2000)
+x = pyautogui.locateCenterOnScreen('images/closeHeroes.png', confidence=0.85)
+pyautogui.click(x) if x else print("NOt found")

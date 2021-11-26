@@ -1,9 +1,8 @@
-1. Connect wallet
-2. click on metamask
-3. wait and sign
-4. wait loading
+1. Connect wallet- OK
+2. click on metamask - OK
+3. wait and sign - OK
+4. wait loading - OK 
 5. check if logged in
-6. if logged in save heroes and treasure hunt locations 
 7. Click on heroes - OK
 8. Drag screen down
 9. Locate heroes not working and click - OK

@@ -13,9 +13,9 @@ class Bot():
     def main_chain(self):
         while True:
             self.login()
-            self.put_heroes_to_work()
-            self.treasure_hunt()
-            break
+            heroes_work = self.put_heroes_to_work()
+            if heroes_work != False:
+                self.treasure_hunt()
 
     def check(self, image):
         return pyautogui.locateOnScreen(image, confidence=0.89) 
@@ -39,14 +39,20 @@ class Bot():
         print("Putting your slaves to work")
         sleep(3)
         heroes_check = self.check('images/heroes.png')
-        pyautogui.click(heroes_check) if heroes_check else print('Heroes Image not found')
-        sleep(5)
+        if heroes_check: 
+            pyautogui.click(heroes_check) 
+        else:
+            print("Maybe your not in the main screen, trying to enter again")
+            return False
+
+        sleep(10)
         pyautogui.moveTo(2800, self.y/2)
         pyautogui.scroll(-2000)
         self.click_work_button()
         sleep(2)
         x_button_check = self.check('images/closeHeroes.png')
         pyautogui.click(x_button_check) if x_button_check else print('Close button image not found')
+        return True
 
     def click_work_button(self):
         work_button = pyautogui.locateOnScreen('images/work.png', confidence=0.9, grayscale=True)
@@ -59,23 +65,27 @@ class Bot():
     def treasure_hunt(self):
         print('Going to Treasure Hunt')
         refresh_count = 0
+        self.not_found_count = 0
         treasure_check = self.check('images/treasureScreen.png')
         pyautogui.click(treasure_check) if treasure_check else print('Treasure hunt not found')
         while True:
-            sleep(30)
+            sleep(120)
             pyautogui.click()
             self.refresh_treasure()
             refresh_count += 1
-            if refresh_count >= 20:
+            if refresh_count >= 10 or self.not_found_count >= 3:
                 self.refresh_page()
-                refresh_count = 0
                 break
 
 
     def refresh_treasure(self):
         print('Refreshing treasure hunt screen')
         back_check = self.check('images/back.png')
-        pyautogui.click(back_check) if back_check else print('Back icon not found')
+        if back_check:
+            pyautogui.click(back_check) 
+        else:
+            print('Back icon not found')
+            self.not_found_count += 1
         sleep(1.5)
         treasure_check = self.check('images/treasureScreen.png')
         pyautogui.click(treasure_check) if treasure_check else print('Treasure hunt not found')
@@ -88,14 +98,10 @@ class Bot():
         pyautogui.keyUp('shift')
         pyautogui.keyUp('ctrl')
 
-
-
-
 def main():
     pyautogui.FAILSAFE = False
     pyautogui.PAUSE = 1.2
     bot = Bot()
-    # bot.start()
 
 
 if __name__ == "__main__":

@@ -1,28 +1,22 @@
 # Bomb-Crypto-EasyBot
 Let the bot take care of your heroes, while you sleep.
-<<<<<<< HEAD
-<p style="color: red;">Attention! Note that you have to set your screen scale to 100% to work properly<p>
-
-
-=======
-<h2>Attention!<h2>
-  <p>Note that you have to set your screen scale to 100% to work properly<p>
-This bot handle most possible errors such as unknown error, continuing working even when it occurs.
+<h2>Attention!</h2>
+  <p>Note that you have to set your screen scale to 100% to work properly</p>
+  <p>The script handle most errors such as unknown error and 10% loading error</p>
   
->>>>>>> bffe7a8d2b05e4d93a6c3151aa9fc221c847667c
 <h2>Windows<h2>
 
 1. Login into your Metamask account.
   
 2. Open the bombcrypto game page in the browser.
   
-3. Install Python:
-Open the official site to install and click to download the latest version
-<img src="images\github_readme\python.PNG" width= 600 height=420>
-Click in install and mark the checkboxes as at the image below:
-<img src="images\github_readme\installer-python.PNG" width= 600 height=420>
-After finishing installing, close:
-<img src="images\github_readme\sucessful.PNG" width= 600 height=420>
+3. Install Python: https://www.python.org/downloads/
+<p>Open the official site to install and click to download the latest version</p>
+<img src="images\github_readme\python.PNG" width= 600 height=420/> <br>
+<p>Click in install and mark the checkboxes as at the image below:</p>
+<img src="images\github_readme\installer-python.PNG" width= 600 height=420/> <br>
+  <p>After finishing installing, close:</p>
+<img src="images\github_readme\sucessful.PNG" width= 600 height=420/> <br>
 
 4. Open the terminal or a code editor, for example VS CODE or Sublime Text.
 
@@ -36,7 +30,7 @@ python app.py
 ```
 6. Switch to the browser with the bomb crypto open.
   
-<h2>Linux<h2>
+<h2>Linux</h2>
   
 
 1. Login into your Metamask account.

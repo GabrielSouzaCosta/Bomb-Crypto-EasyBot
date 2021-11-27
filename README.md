@@ -23,7 +23,8 @@ python app.py
   
 <h2>Linux<h2>
   
-1. Login into your Metamask account.
+
+1.Login into your Metamask account.
   
 2.Open the bomb crypto game page in the browser.
   
@@ -38,13 +39,10 @@ python3 app.py
   
 6. Switch to the browser with the bomb crypto open.
  
-__________________________________________________________________________________________________
+________________________________________________________________________________________________________
   
   
-Consider sending me some BCOIN, so that maybe I can buy a rare heroe, as I only have 10 common heroes.
+Consider sending me some BCOIN, so that maybe I can buy a rare hero, as I only have 10 common heroes. 😅
   
-Metamask Adress: <a>0x9A309922d7bae076A77da2F5af609cd637E5cA85<a>
-  
-
-
+Metamask Adress: 0x9A309922d7bae076A77da2F5af609cd637E5cA85
   

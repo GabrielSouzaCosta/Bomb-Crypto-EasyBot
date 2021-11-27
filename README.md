@@ -10,7 +10,7 @@ Let the bot take care of your heroes, while you sleep.
   
 2. Open the bombcrypto game page in the browser.
   
-3. Install Python:
+3. Install Python: https://www.python.org/downloads/
 <p>Open the official site to install and click to download the latest version</p>
 <img src="images\github_readme\python.PNG" width= 600 height=420/> <br>
 <p>Click in install and mark the checkboxes as at the image below:</p>

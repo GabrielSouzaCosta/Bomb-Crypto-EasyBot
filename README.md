@@ -1,8 +1,9 @@
 # Bomb-Crypto-EasyBot
 Let the bot take care of your heroes, while you sleep.
-<p style="color: red">Attention! Note that you have to set your screen scale to 100% to work properly<p>
-
-
+<h2>Attention!<h2>
+  <p>Note that you have to set your screen scale to 100% to work properly<p>
+This bot handle most possible errors such as unknown error, continuing working even when it occurs.
+  
 <h2>Windows<h2>
 
 1. Login into your Metamask account.
@@ -40,7 +41,7 @@ python3 app.py
 ________________________________________________________________________________________________________
   
 If you want to contact me...
-  E-mail: gabrielsscosta2010@hotmail.com
+  E-mail: gabrielsco@protonmail.com
   
 Consider sending me some BCOIN, so that maybe I can buy a rare hero, as I only have 10 common heroes. 😅
   

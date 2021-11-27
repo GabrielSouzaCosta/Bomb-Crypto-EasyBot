@@ -46,7 +46,7 @@ class Bot():
 
         sleep(10)
         scroll_x, scroll_y = pyautogui.locateCenterOnScreen('images\scroll.PNG')
-        for t in range(4):
+        for t in range(2):
             pyautogui.click(scroll_x, scroll_y)
             pyautogui.dragTo(scroll_x, 200, duration=1.5)   
         self.click_work_button()

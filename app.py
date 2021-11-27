@@ -7,6 +7,7 @@ class Bot():
     def __init__(self):
         self.x, self.y = pyautogui.size()
         print('Bot waking up...')
+        print('ctrl + c to kill Bot')
         self.main_chain()
     
     def main_chain(self):

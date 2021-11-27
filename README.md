@@ -14,11 +14,14 @@ This bot handle most possible errors such as unknown error, continuing working e
 Open the official site to install and click to download the latest version
 
 4. Install requirements by typing in the terminal:
+```sh
 pip install -r requirements.txt
-
+```
 5. Inside the application directory run the script in the terminal with:
+```sh
 python app.py
-  
+```
+6. Switch to the browser with the bomb crypto open.
   
 <h2>Linux<h2>
   
@@ -28,14 +31,18 @@ python app.py
 2. Open the bomb crypto game page in the browser.
   
 3. Open the terminal or a code editor and install requirements by typying in the terminal: <br>
+```sh
 pip install -r requirements.txt
-  
+```
 4. Install scrot to enable taking screenshots on linux debian distributions: <br>
+```sh
 sudo apt-get install scrot
+```
   
 5. Run the script in the terminal or code editor inside the app directory as below: <br>
+```sh
 python3 app.py
-  
+```
 6. Switch to the browser with the bomb crypto open.
  
 ________________________________________________________________________________________________________
@@ -45,5 +52,5 @@ If you want to contact me...
   
 Consider sending me some BCOIN, so that maybe I can buy a rare hero, as I only have 10 common heroes. 😅
   
-Metamask Adress: 0x9A309922d7bae076A77da2F5af609cd637E5cA85
+Metamask Adress: ```sh0x9A309922d7bae076A77da2F5af609cd637E5cA85```
   

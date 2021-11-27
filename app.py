@@ -5,7 +5,6 @@ from time import sleep
 
 class Bot():
     def __init__(self):
-        # self.login()
         self.x, self.y = pyautogui.size()
         print('Bot waking up...')
         self.main_chain()
@@ -17,8 +16,8 @@ class Bot():
             if heroes_work != False:
                 self.treasure_hunt()
 
-    def check(self, image):
-        return pyautogui.locateOnScreen(image, confidence=0.89) 
+    def check(self, image, confidence=0.8):
+        return pyautogui.locateOnScreen(image, confidence=confidence) 
 
     def login(self):
         print("Trying to log in...")
@@ -31,7 +30,7 @@ class Bot():
         # fox_check = self.check('images/metamask.png')
         # pyautogui.click(fox_check) if fox_check else print('Metamask fox not found')
         sleep(8)
-        sign_check = self.check('images/sign.png')
+        sign_check = self.check('images/sign.png', confidence=0.6)
         pyautogui.click(sign_check, clicks=3, interval=0.5) if sign_check else print('Sign button not found')
         sleep(30)
 
@@ -46,7 +45,7 @@ class Bot():
             return False
 
         sleep(10)
-        pyautogui.moveTo(2800, self.y/2)
+        pyautogui.moveTo(self.x/2, self.y/2)
         pyautogui.scroll(-2000)
         self.click_work_button()
         sleep(2)
@@ -73,7 +72,7 @@ class Bot():
             pyautogui.click()
             self.refresh_treasure()
             refresh_count += 1
-            if refresh_count >= 10 or self.not_found_count >= 3:
+            if refresh_count >= 10 or self.not_found_count >= 2:
                 self.refresh_page()
                 break
 

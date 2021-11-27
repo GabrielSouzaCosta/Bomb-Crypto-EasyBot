@@ -1,7 +1,0 @@
-{    "pyautogui_configs": {
-        "defaultConfidence": 0.9,
-        "shortTime": 1.3,
-        "mediumTime": 5,
-        "longTIme": 12
-    }
-}

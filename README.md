@@ -1,6 +1,6 @@
 # Bomb-Crypto-EasyBot
 Let the bot take care of your heroes, while you sleep.
-<p style="color: red">Attention! Note that you have to set your screen scale to 100% to work properly<p>
+<p style="color: red;">Attention! Note that you have to set your screen scale to 100% to work properly<p>
 
 
 <h2>Windows<h2>
@@ -10,9 +10,14 @@ Let the bot take care of your heroes, while you sleep.
 2.Open the bombcrypto game page in the browser.
   
 3. Install Python:
-<ol>
-  <li>Open the official site to install and click to download the latest version
-<ol>
+Open the official site to install and click to download the latest version
+<img src="images\github_readme\python.PNG" width= 600 height=420>
+Click in install and mark the checkboxes as at the image below:
+<img src="images\github_readme\installer-python.PNG" width= 600 height=420>
+After finishing installing, close:
+<img src="images\github_readme\sucessful.PNG" width= 600 height=420>
+
+4. Open the terminal or a code editor, for example VS CODE or Sublime Text.
 
 4. Install requirements by typing in the terminal:
 pip install -r requirements.txt

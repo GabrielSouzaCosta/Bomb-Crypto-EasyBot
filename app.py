@@ -11,6 +11,7 @@ class Bot():
         self.main_chain()
     
     def main_chain(self):
+        sleep(3)
         while True:
             self.login()
             heroes_work = self.put_heroes_to_work()
@@ -46,7 +47,7 @@ class Bot():
             return False
 
         sleep(10)
-        scroll_x, scroll_y = pyautogui.locateCenterOnScreen('images\scroll.PNG')
+        scroll_x, scroll_y = pyautogui.locateCenterOnScreen('images\scroll.png')
         for t in range(2):
             pyautogui.click(scroll_x, scroll_y)
             pyautogui.dragTo(scroll_x, 200, duration=1.5)   

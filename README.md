@@ -47,10 +47,6 @@ pip3 install pyautogui
 ```sh
 sudo apt-get install python3-tk python3-dev
 ```
-5. Install openCv:
-```sh
-
-```
 5. Install scrot to enable taking screenshots on linux debian distributions: <br>
 ```sh
 sudo apt-get install scrot

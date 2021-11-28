@@ -41,14 +41,22 @@ python app.py
 
 3. Open the terminal or a code editor, open in the application directory by using "cd" and the location of the downloaded file and install requirements by typying in the terminal: <br>
 ```sh
-pip install -r requirements.txt
+pip3 install pyautogui
 ```
-4. Install scrot to enable taking screenshots on linux debian distributions: <br>
+4. Install tkinter for mouseinfo:
+```sh
+sudo apt-get install python3-tk python3-dev
+```
+5. Install openCv:
+```sh
+
+```
+5. Install scrot to enable taking screenshots on linux debian distributions: <br>
 ```sh
 sudo apt-get install scrot
 ```
   
-5. Run the script in the terminal or code editor inside the app directory as below: <br>
+6. Run the script in the terminal or code editor inside the app directory as below: <br>
 ```sh
 python3 app.py
 ```

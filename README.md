@@ -1,8 +1,10 @@
 # Bomb-Crypto-EasyBot
 Let the bot take care of your heroes, while you sleep.
+ 
 <h2>Attention!</h2>
   <p>Note that you have to set your screen scale to 100% to work properly</p>
   <p>The script handle most errors such as unknown error and 10% loading error</p>
+  Download the zip on the Code section and unzip it
   
 <h2>Windows<h2>
 
@@ -18,7 +20,7 @@ Let the bot take care of your heroes, while you sleep.
   <p>After finishing installing, close:</p>
 <img src="images\github_readme\sucessful.PNG" width= 600 height=420/> <br>
 
-4. Open the terminal or a code editor, for example VS CODE or Sublime Text.
+4. Open the terminal or a code editor, for example VS CODE or Sublime Text and open in the application directory, in the terminal use cd and the location of the directory.
 
 4. Install requirements by typing in the terminal:
 ```sh
@@ -36,17 +38,21 @@ python app.py
 1. Login into your Metamask account.
   
 2. Open the bomb crypto game page in the browser.
-  
-3. Open the terminal or a code editor and install requirements by typying in the terminal: <br>
+
+3. Open the terminal or a code editor, open in the application directory by using "cd" and the location of the downloaded file and install requirements by typying in the terminal: <br>
 ```sh
-pip install -r requirements.txt
+pip3 install pyautogui
 ```
-4. Install scrot to enable taking screenshots on linux debian distributions: <br>
+4. Install tkinter for mouseinfo:
+```sh
+sudo apt-get install python3-tk python3-dev
+```
+5. Install scrot to enable taking screenshots on linux debian distributions: <br>
 ```sh
 sudo apt-get install scrot
 ```
   
-5. Run the script in the terminal or code editor inside the app directory as below: <br>
+6. Run the script in the terminal or code editor inside the app directory as below: <br>
 ```sh
 python3 app.py
 ```

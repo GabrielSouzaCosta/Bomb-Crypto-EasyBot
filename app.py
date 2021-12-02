@@ -4,6 +4,7 @@ from time import sleep
 import random
 
 rg = random.uniform
+smaller_time = [0.9, 1.2]
 small_time = [2.1, 3.9]
 medium_time = [4.9, 7.2]
 large_time = [8.1, 11.2]
@@ -60,11 +61,11 @@ class Bot():
         scroll_x, scroll_y = pyautogui.locateCenterOnScreen('images\scroll.png')
         for t in range(2):
             pyautogui.click(scroll_x, scroll_y)
-            pyautogui.dragTo(scroll_x, 200, duration=1.5)   
+            pyautogui.dragTo(scroll_x, 200, duration=rg(*smaller_time))   
         self.click_work_button()
         sleep(rg(*small_time))
         x_button_check = self.check('images/closeHeroes.png')
-        pyautogui.click(x_button_check, clicks=2, interval=1) if x_button_check else print('Close button image not found')
+        pyautogui.click(x_button_check, clicks=2, interval=rg(*smaller_time)) if x_button_check else print('Close button image not found')
         return True
 
     def click_work_button(self):
@@ -79,7 +80,7 @@ class Bot():
         refresh_count = 0
         self.not_found_count = 0
         treasure_check = self.check('images/treasureScreen.png')
-        pyautogui.click(treasure_check, clicks=2, interval=1) if treasure_check else print('Treasure hunt not found')
+        pyautogui.click(treasure_check, clicks=2, interval=rg(*smaller_time)) if treasure_check else print('Treasure hunt not found')
         while True:
             refresher = random.randint(4, 7)
             sleep(rg(*big_time))

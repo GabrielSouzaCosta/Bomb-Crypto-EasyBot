@@ -1,7 +1,6 @@
 # Bomb-Crypto-EasyBot
 Let the bot take care of your heroes, while you sleep.
  
-<strong>!!This bot does not work anymore due to the new verification methods!!</strong>
 <h2>Attention!</h2>
   <p>Note that you have to set your screen scale to 100% to work properly</p>
   <p>The script handle most errors such as unknown error and 10% loading error</p>

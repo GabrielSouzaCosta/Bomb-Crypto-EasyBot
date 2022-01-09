@@ -68,6 +68,8 @@ Consider sending me some BCOIN if it helped you.
  
 Metamask Adress: ```sh0x9A309922d7bae076A77da2F5af609cd637E5cA85```
 PIX(Brasil): ```+5535984496453```
-Gabriel Souza Costa
-<img src="images/github_readme/qr.png" width=400>
+Gabriel Souza Costa <br> <br>
+<p align="center">
+ <img src="images/github_readme/qr.png" width=400 >
+</p>
   

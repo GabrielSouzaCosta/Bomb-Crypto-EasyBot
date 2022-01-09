@@ -39,11 +39,8 @@ class Bot():
         sleep(rg(*large_time))
         wallet_check = self.check('images/wallet.png')
         pyautogui.click(wallet_check) if wallet_check else print('Wallet button not found')
-        # sleep(2)
-        # fox_check = self.check('images/metamask.png')
-        # pyautogui.click(fox_check) if fox_check else print('Metamask fox not found')
-        sleep(rg(*small_time))
-        sign_check = self.check('images/sign.png', confidence=0.6)
+        sleep(rg(*medium_time))
+        sign_check = self.check('images/sign.png', confidence=0.8)
         pyautogui.click(sign_check, clicks=3, interval=0.5) if sign_check else print('Sign button not found')
         sleep(rg(*larger_time))
 
@@ -58,11 +55,13 @@ class Bot():
             return False
 
         sleep(rg(*large_time))
-        scroll_x, scroll_y = pyautogui.locateCenterOnScreen('images\scroll.png')
-        for t in range(2):
-            pyautogui.click(scroll_x, scroll_y)
-            pyautogui.dragTo(scroll_x, 200, duration=rg(*smaller_time))   
-        self.click_work_button()
+        work_all = pyautogui.locateCenterOnScreen("images/all.png", confidence=0.8)
+        pyautogui.click(work_all)
+        # scroll_x, scroll_y = pyautogui.locateCenterOnScreen('/home/gcosta/Documents/Projects/Bomb-Crypto-EasyBot/images/scroll.png')
+        # for t in range(3):
+        #     pyautogui.click(scroll_x, scroll_y)
+        #     pyautogui.dragTo(scroll_x, 200, duration=rg(*smaller_time))   
+        # self.click_work_button()
         sleep(rg(*small_time))
         x_button_check = self.check('images/closeHeroes.png')
         pyautogui.click(x_button_check, clicks=2, interval=rg(*smaller_time)) if x_button_check else print('Close button image not found')

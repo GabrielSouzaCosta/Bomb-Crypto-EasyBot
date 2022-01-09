@@ -2,9 +2,10 @@
 Let the bot take care of your heroes, while you sleep.
  
 <h2>Attention!</h2>
-  <p>Note that you have to set your screen scale to 100% to work properly</p>
-  <p>The script handle most errors such as unknown error and 10% loading error</p>
-  Download the zip on the Code section and unzip it
+  <p>Note that you have to set both your screen scale and browser zoom to 100% to work properly</p>
+  <p>The script handle most of possible errors</p>
+  Download the zip on the Code section and unzip it or clone the repository
+  <p>In case the app is not finding a specific button you need to take a screenshot of the button and replace the standard image in the images folder.
   
 <h2>Windows<h2>
 
@@ -63,7 +64,9 @@ ________________________________________________________________________________
 If you want to contact me...
   E-mail: gabrielsco@protonmail.com
   
-Consider sending me some BCOIN, so that maybe I can buy a rare hero, as I only have 10 common heroes. 😅
-  
+Consider sending me some BCOIN if it helped you.
+ 
 Metamask Adress: ```sh0x9A309922d7bae076A77da2F5af609cd637E5cA85```
+PIX(Brasil): ```+5535984496453```
+Gabriel Souza Costa
   

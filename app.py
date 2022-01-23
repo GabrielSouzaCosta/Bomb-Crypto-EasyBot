@@ -6,7 +6,7 @@ import random
 rg = random.uniform
 smaller_time = [0.9, 1.2]
 small_time = [2.1, 3.9]
-medium_time = [4.9, 7.2]
+medium_time = [7.1, 7.5]
 large_time = [8.1, 11.2]
 larger_time = [24.3, 30.4]
 big_time = [380.6, 423.7]

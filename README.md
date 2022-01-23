@@ -60,6 +60,9 @@ python3 app.py
 6. Switch to the browser with the bomb crypto open.
  
 ________________________________________________________________________________________________________
+
+<h2>Step-by-Step Video</h2>
+<video src="instructions.mp4" width=600>
   
 If you want to contact me...
   E-mail: gabrielsco@protonmail.com

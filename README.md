@@ -6,7 +6,10 @@ Let the bot take care of your heroes, while you sleep.
   <p>The script handle most of possible errors</p>
   Download the zip on the Code section and unzip it or clone the repository
   <p>In case the app is not finding a specific button you need to take a screenshot of the button and replace the standard image in the images folder.
-  
+
+<h2>Step-by-Step Video</h2>
+https://user-images.githubusercontent.com/79537042/150691294-c1269da5-bb68-4ec9-ad36-27f635730b1e.mp4
+ 
 <h2>Windows<h2>
 
 1. Login into your Metamask account.
@@ -60,12 +63,7 @@ python3 app.py
 6. Switch to the browser with the bomb crypto open.
  
 ________________________________________________________________________________________________________
-
-<h2>Step-by-Step Video</h2>
-<video width="600" height="400" controls>
-  <source src="instructions.mp4" type="video/mp4">
-</video>
-  
+ 
 If you want to contact me...
   E-mail: gabrielsco@protonmail.com
   
@@ -74,6 +72,7 @@ Consider sending me some BCOIN if it helped you.
 Metamask Adress: ```sh0x9A309922d7bae076A77da2F5af609cd637E5cA85```
 PIX(Brasil): ```+5535984496453```
 Gabriel Souza Costa <br> <br>
+ 
 <p align="center">
  <img src="images/github_readme/qr.png" width=400 >
 </p>

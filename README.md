@@ -62,7 +62,9 @@ python3 app.py
 ________________________________________________________________________________________________________
 
 <h2>Step-by-Step Video</h2>
-<video src="instructions.mp4" width=600>
+<video width="600" height="400" controls>
+  <source src="instructions.mp4" type="video/mp4">
+</video>
   
 If you want to contact me...
   E-mail: gabrielsco@protonmail.com

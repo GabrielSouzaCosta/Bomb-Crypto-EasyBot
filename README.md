@@ -1,5 +1,8 @@
 # Bomb-Crypto-EasyBot
 Let the bot take care of your heroes, while you sleep.
+Easy Installation and lightweight app.
+If you want to save energy you can try to use Throttlestop for it.
+https://www.ultrabookreview.com/31385-the-throttlestop-guide/
  
 <h2>Attention!</h2>
   <p>Note that you have to set both your screen scale and browser zoom to 100% to work properly</p>

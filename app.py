@@ -40,6 +40,8 @@ class Bot():
         wallet_check = self.check('images/wallet.png')
         pyautogui.click(wallet_check) if wallet_check else print('Wallet button not found')
         sleep(rg(*medium_time))
+        pyautogui.click(pyautogui.locateCenterOnScreen("images/connect.PNG", confidence=0.8))
+        sleep(rg(*large_time))
         sign_check = self.check('images/sign.png', confidence=0.8)
         pyautogui.click(sign_check, clicks=3, interval=0.5) if sign_check else print('Sign button not found')
         sleep(rg(*larger_time))
